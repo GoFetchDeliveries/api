@@ -24,3 +24,7 @@ Anyone with a GoFetch user account can access GoFetch API.
 
 1. Send an API request and supply both your email and token in `X-User-Email` and `X-User-Token` HTTP readers.
 
+## API endpoints
+
+* [Jobs](endpoints/jobs.md)
+
