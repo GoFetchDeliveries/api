@@ -1,6 +1,6 @@
 # Jobs
 
-Manage your delivery jobs.
+Your delivery jobs.
 
 * [Create a job](#create-job)
 
