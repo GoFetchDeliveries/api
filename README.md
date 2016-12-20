@@ -20,5 +20,5 @@ Anyone with a GoFetch user account can access GoFetch API.
 
 1. First, create an account using either [GoFetch iOS app](https://itunes.apple.com/au/app/gofetch/id1045358128?mt=8) or the web app [www.go-fetch.com.au/webapp/](https://www.go-fetch.com.au/webapp/). You will use the login email address in the `X-User-Email` HTTP header.
 
-1. Request your access token by [creating an issue](issues/new) and mentioning your email.
+1. Request your access token by [creating an issue](/GoFetchDeliveries/api-v1/issues/new) and mentioning your email.
 
