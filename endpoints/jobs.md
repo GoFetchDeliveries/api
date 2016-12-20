@@ -12,6 +12,7 @@ Creates a delivery job that is immediatelly available to fetchers.
 
 #### Example request data
 
+```JSON
 {
   "pickup": {
     "latitude": -37.858103,
@@ -29,3 +30,4 @@ Creates a delivery job that is immediatelly available to fetchers.
   },
   "notes_to_fetcher": "Pickup in a restaurant at the bar. Dropoff: purple house with a big tree."
 }
+```
