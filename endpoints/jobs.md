@@ -6,9 +6,10 @@ Your delivery jobs.
 
 ## Create a job
 
+`POST jobs`
+
 Creates a delivery job that is immediatelly available to fetchers.
 
-`POST /jobs`
 
 #### Example request data
 
