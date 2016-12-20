@@ -8,7 +8,7 @@ Your delivery jobs.
 
 `POST jobs`
 
-Creates a delivery job that is immediatelly available to fetchers.
+Creates a job that is immediately available for delivery.
 
 
 #### Example request data
