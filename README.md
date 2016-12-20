@@ -22,5 +22,5 @@ Anyone with a GoFetch user account can access GoFetch API.
 
 1. Request your access token by [creating an issue](https://github.com/GoFetchDeliveries/api-v1/issues/new) and mentioning your GoFetch login email. We will email you your API access token.
 
-1. Send an API request and supply your email and token in `X-User-Email` and `X-User-Token` HTTP readers.
+1. Send an API request and supply both your email and token in `X-User-Email` and `X-User-Token` HTTP readers.
 
