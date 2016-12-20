@@ -29,6 +29,6 @@ Creates a job that is immediately available for delivery.
     "contact_name": "Saida Kronecker",
     "contact_phone": "040191332"
   },
-  "notes_to_fetcher": "Pickup at the reception. Dropoff: purple house with a big tree."
+  "notes_to_fetcher": "Pickup at the reception. Dropoff: a house with a pink garden gnome."
 }
 ```
