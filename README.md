@@ -10,8 +10,8 @@ Please send requests to `https://go-fetch.com.au/public_api/v1/`.
 
 | Header | Description |
 | --- | --- |
-| `X-User-Email: [Your GoFetch email]` | Used for authentication |
-| `X-User-Token: [Your access token]` | Used for authentication |
+| `X-User-Email: [Your GoFetch email]` | Authentication |
+| `X-User-Token: [Your access token]` | Authentication |
 | `Content-Type: application/json` | Required for POST requests |
 
 ## Authentication
