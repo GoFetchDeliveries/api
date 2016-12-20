@@ -8,8 +8,8 @@ All requests are sent to `https://go-fetch.com.au/public_api/v1/`.
 
 ## Request Headers
 
-| Command | Description |
+| Header | Description |
 | --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+| `X-User-Email: [Your GoFetch email]` | Used for authentication |
+| `X-User-Token: [Your access token]` | Used for authentication |
 
