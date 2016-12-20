@@ -4,7 +4,7 @@ Welcome to GoFetch API. This API allows to create delivery jobs and get notified
 
 ## Sending requests
 
-All requests are sent to `https://go-fetch.com.au/public_api/v1/`.
+Please send requests to `https://go-fetch.com.au/public_api/v1/`.
 
 ## Request Headers
 
