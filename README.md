@@ -12,4 +12,5 @@ All requests are sent to `https://go-fetch.com.au/public_api/v1/`.
 | --- | --- |
 | `X-User-Email: [Your GoFetch email]` | Used for authentication |
 | `X-User-Token: [Your access token]` | Used for authentication |
+| `Content-Type: application/json` | Required for POST requests |
 
