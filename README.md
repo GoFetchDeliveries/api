@@ -26,5 +26,6 @@ Anyone with a GoFetch user account can access GoFetch API.
 
 ## API endpoints
 
+* [Hello World](endpoints/hello_world.md)
 * [Jobs](endpoints/jobs.md)
 
