@@ -9,7 +9,7 @@ Allows to get authentication token for your GoFetch user account.
 
 `POST sessions`
 
-Supply your GoFetch email and password to get your API authentication token. The token can then be used to authenticate other API requests.
+Supply your GoFetch email and password to get your API authentication token. The token can then be used to authenticate other API requests. There is no need to supply `X-User-Email` or `X-User-Token` HTTP headers for this request.
 
 
 ### Request data
@@ -43,3 +43,13 @@ curl -H 'Content-Type: application/json' \
 
 
 ## Destroy session
+
+`DELETE sessions`
+
+Regenerates authentication token for your user account, which can be useful if you think your token could be compromised. Returns an empty response.
+
+### cURL example
+
+```shell
+curl -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' -X "DELETE" https://go-fetch.com.au/public_api/v1/sessions
+```
