@@ -36,7 +36,7 @@ API requests are sent to `https://go-fetch.com.au/public_api/v1/` with the follo
 
 ## Errors
 
-Errors responses contains a single `error` attribute with a text description:
+Error responses contains a single `error` attribute with a text description:
 
 ```JSON
 {"error": "You need to sign in or sign up before continuing."}
