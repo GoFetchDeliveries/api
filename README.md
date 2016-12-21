@@ -8,6 +8,13 @@ Welcome to GoFetch API. This API allows to create delivery jobs and get notified
 | `X-User-Token: [Your authentication token]` | Authentication |
 | `Content-Type: application/json` | Required for POST requests |
 
+
+## API endpoints
+
+* [Hello World](endpoints/hello_world.md)
+* [Jobs](endpoints/jobs.md)
+* [Sessions](endpoints/sessions.md)
+
 ## Getting started
 
 Anyone with a GoFetch user account can access GoFetch API.
@@ -42,12 +49,6 @@ GoFetch API returns the following status codes:
 | 2xx Success | Request has succeeded |
 | 401 Unauthorized | Authentication error |
 | 422 Unprocessable Entity | Request contains incorrect parameters |
-
-## API endpoints
-
-* [Hello World](endpoints/hello_world.md)
-* [Jobs](endpoints/jobs.md)
-* [Sessions](endpoints/sessions.md)
 
 ## Feedback is welcome
 
