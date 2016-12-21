@@ -51,5 +51,5 @@ Regenerates authentication token for your user account, which can be useful if y
 ### cURL example
 
 ```shell
-curl -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' -X "DELETE" https://go-fetch.com.au/public_api/v1/sessions
+curl -X "DELETE" -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' https://go-fetch.com.au/public_api/v1/sessions
 ```
