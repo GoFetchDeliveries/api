@@ -1,6 +1,6 @@
 # GoFetch API v1 documentation
 
-Welcome to GoFetch API. This API allows to create delivery jobs and get notified of their progress. API requests are sent to `https://go-fetch.com.au/public_api/v1/` with the following headers
+Welcome to GoFetch API. This API allows to create delivery jobs and get notified of their progress. API requests are sent to `https://go-fetch.com.au/public_api/v1/` with the following headers:
 
 | Header | Description |
 | --- | --- |
@@ -33,10 +33,11 @@ Errors responses contains a single `error` attribute with a text description:
 {"error": "You need to sign in or sign up before continuing."}
 ```
 
-#### Error codes
+## HTTP status codes
 
 | Code | Description |
 | --- | --- |
+| 2xx Success | Request has succeeded |
 | 401 Unauthorized | Authentication error |
 | 422 Unprocessable Entity | Request contains incorrect parameters |
 
