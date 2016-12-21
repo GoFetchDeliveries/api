@@ -41,8 +41,6 @@ Errors responses contains a single `error` attribute with a text description:
 
 #### Error codes
 
-**401 Unauthorized**:
-
 | Code | Description |
 | --- | --- |
 | 401 Unauthorized | Authentication error |
