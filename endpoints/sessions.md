@@ -27,3 +27,9 @@ Supply the `email` and `password` of your GoFetch user account. If you don't hav
 ```
 
 The returned authentication token is passed in the `X-User-Token` HTTP header to access other API endpoints. Authentication token will not change. The token needs to be stored securely.
+
+### Curl example
+
+```bash
+curl -X POST -H 'Content-Type: application/json' https://go-fetch.com.au/public_api/v1/sessions -d '{"user": {"email": "your@email.com", "password": "@9LFpShfE$yA"}}'
+```
