@@ -35,4 +35,5 @@ curl -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' https://go-fetch.com.au/p
 
 * [Hello World](endpoints/hello_world.md)
 * [Jobs](endpoints/jobs.md)
+* [Sessions](endpoints/sessions.md)
 
