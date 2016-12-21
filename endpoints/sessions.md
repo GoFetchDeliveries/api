@@ -1,12 +1,10 @@
 # Sessions
 
-* [Create](#create)
-
 ## Create
 
 `POST sessions`
 
-Login to get an API authentication token that can be used to authenticate other API requests.
+Login to get an API authentication token that can be used to authenticate other API requests. This can be done only once, since your authentication token will not change.
 
 
 #### Request data
