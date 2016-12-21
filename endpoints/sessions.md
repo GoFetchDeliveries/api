@@ -4,7 +4,7 @@
 
 `POST sessions`
 
-Login to get an API authentication token that can be used to authenticate other API requests.
+Supply your GoFetch email and password to get your API authentication token. The token can then be used to authenticate other API requests.
 
 
 ### Request data
