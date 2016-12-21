@@ -18,7 +18,7 @@ Supply your GoFetch email and password to get your API authentication token. The
 }
 ```
 
-Supply the `email` and `password` of your GoFetch user account. If you don't have one, create one with the [GoFetch iOS app](https://itunes.apple.com/au/app/gofetch/id1045358128?mt=8) or the web app [www.go-fetch.com.au/webapp/](https://www.go-fetch.com.au/webapp/).
+Supply the `email` and `password` of your GoFetch user account. If you don't have one, it can be created in the [GoFetch iOS app](https://itunes.apple.com/au/app/gofetch/id1045358128?mt=8) or the web app [www.go-fetch.com.au/webapp/](https://www.go-fetch.com.au/webapp/).
 
 ### Response
 
