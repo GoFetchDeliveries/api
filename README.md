@@ -18,7 +18,7 @@ Anyone with a GoFetch user account can access GoFetch API.
 
 1. Finally, supply both your email and authentication token in `X-User-Email` and `X-User-Token` HTTP headers when calling all other GoFetch API endpoints.
 
-#### Test access to API
+#### Test access to the API
 
 ```bash
 curl -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' https://go-fetch.com.au/public_api/v1/hello_world
