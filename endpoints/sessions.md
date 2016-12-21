@@ -4,7 +4,7 @@
 
 `POST sessions`
 
-Login to get an API authentication token that can be used to authenticate other API requests. This can be done only once, since your authentication token will not change.
+Login to get an API authentication token that can be used to authenticate other API requests.
 
 
 #### Request data
@@ -25,3 +25,5 @@ Supply the `email` and `password` of your GoFetch user account. If you don't hav
 ```JSON
 { "authentication_token": "FSiWaVUP4oi0Bs9Ia9Xw" }
 ```
+
+The returned authentication token is passed in the `X-User-Token` HTTP header to access other API endpoints. Authentication token will not change.
