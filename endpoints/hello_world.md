@@ -15,9 +15,7 @@ Simply returns 'Hello world' message. This endpoint can be used to test access t
 ### cURL example
 
 ```shell
-curl -H 'X-User-Email: EMAIL' \
-  -H 'X-User-Token: TOKEN' \
-  https://go-fetch.com.au/public_api/v1/hello_world
+curl -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' https://go-fetch.com.au/public_api/v1/hello_world
 ```
 
 
