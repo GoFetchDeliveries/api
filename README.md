@@ -31,9 +31,30 @@ Anyone with a GoFetch user account can access GoFetch API.
 curl -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' https://go-fetch.com.au/public_api/v1/hello_world
 ```
 
+## Errors
+
+Errors responses contains a single `error` attribute with a text description:
+
+```JSON
+{"error": "You need to sign in or sign up before continuing."}
+```
+
+#### Error codes
+
+**401 Unauthorized**:
+
+| Code | Description |
+| --- | --- |
+| 401 Unauthorized | Authentication error |
+| 422 Unprocessable Entity | Request contains incorrect parameters |
+
 ## API endpoints
 
 * [Hello World](endpoints/hello_world.md)
 * [Jobs](endpoints/jobs.md)
 * [Sessions](endpoints/sessions.md)
+
+## Feedback is welcome
+
+If you have a question or notice a problem with this API documentation feel free to submit an issue or a pull requiest.
 
