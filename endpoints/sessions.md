@@ -26,4 +26,4 @@ Supply the `email` and `password` of your GoFetch user account. If you don't hav
 { "authentication_token": "FSiWaVUP4oi0Bs9Ia9Xw" }
 ```
 
-The returned authentication token is passed in the `X-User-Token` HTTP header to access other API endpoints. Authentication token will not change.
+The returned authentication token is passed in the `X-User-Token` HTTP header to access other API endpoints. Authentication token will not change. The token needs to be stored securely.
