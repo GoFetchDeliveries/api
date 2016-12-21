@@ -35,6 +35,8 @@ Errors responses contains a single `error` attribute with a text description:
 
 ## HTTP status codes
 
+GoFetch API returns the following status codes:
+
 | Code | Description |
 | --- | --- |
 | 2xx Success | Request has succeeded |
