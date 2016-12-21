@@ -14,7 +14,7 @@ Please send requests to `https://go-fetch.com.au/public_api/v1/`.
 | `X-User-Token: [Your authentication token]` | Authentication |
 | `Content-Type: application/json` | Required for POST requests |
 
-## Authentication
+## Getting started
 
 Anyone with a GoFetch user account can access GoFetch API.
 
