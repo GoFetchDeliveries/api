@@ -54,5 +54,5 @@ Errors responses contains a single `error` attribute with a text description:
 
 ## Feedback is welcome
 
-If you have a question or notice a problem with this API documentation feel free to submit an issue or a pull requiest.
+If you have a question or notice a problem with the API or this documentation feel free to submit an issue or a pull requiest.
 
