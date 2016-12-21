@@ -1,6 +1,11 @@
 # Sessions
 
-## Create
+Allows to get authentication token for your GoFetch user account.
+
+* [Create session](#create-session)
+* [Destroy session](#destroy-session)
+
+## Create session
 
 `POST sessions`
 
@@ -35,3 +40,6 @@ curl -H 'Content-Type: application/json' \
   -d '{"user": {"email": "your@email.com", "password": "@9LFpShfE$yA"}}' \
   https://go-fetch.com.au/public_api/v1/sessions
 ```
+
+
+## Destroy session
