@@ -46,7 +46,7 @@ curl -H 'Content-Type: application/json' \
 
 `DELETE sessions`
 
-Regenerates authentication token for your user account, which can be useful if you think your token was compromised. Returns an empty response.
+Regenerates authentication token for your user account, which can be useful if you think your token escaped into the wild. Returns an empty response.
 
 ### cURL example
 
