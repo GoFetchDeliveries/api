@@ -45,3 +45,31 @@ Creates a job that is immediately available for delivery.
 The returned `job_id` will be sent as a parameter in webhooks when a status of the deliver changes.
 
 The `customer_price_cents` is an integer, it shows the price of delivery in Australian cents. Your credit card will be charged this amount when the item is delivered.
+
+### cURL example
+
+```shell
+curl -H 'Content-Type: application/json' \
+  -H 'X-User-Email: EMAIL' \
+  -H 'X-User-Token: TOKEN' \
+  https://go-fetch.com.au/public_api/v1/jobs \
+  -d @- << EOF
+{
+  "pickup": {
+    "latitude": -37.858103,
+    "longitude": 144.973972,
+    "full_address": "20 Loch St, St Kilda West, VIC 3182",
+    "contact_name": "Amanda Woo",
+    "contact_phone": "0403853234"
+  },
+  "dropoff": {
+    "latitude": -37.812173,
+    "longitude": 145.007532,
+    "full_address": "9 Leslie St, Richmond, VIC 3121",
+    "contact_name": "Saida Kronecker",
+    "contact_phone": "040191332"
+  },
+  "notes_to_fetcher": "Pickup in the ministry. Dropoff: a rickety house with a pink garden gnome."
+}
+EOF
+```
