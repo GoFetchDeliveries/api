@@ -37,7 +37,7 @@ Creates a job that is immediately available for delivery.
 
 ```JSON
 {
-  job_id: b3131f1d-b501-4f48-a31d-af8e6302540b,
-  price_cents: 12.75
+  "job_id": "b3131f1d-b501-4f48-a31d-af8e6302540b",
+  "price_cents": 1275
 }
 ```
