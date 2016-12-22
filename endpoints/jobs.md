@@ -41,3 +41,5 @@ Creates a job that is immediately available for delivery.
   "price_cents": 1275
 }
 ```
+
+The returned `job_id` will be sent as a parameter in webhooks when a status of the deliver changes. The `price_cents` is an integer.
