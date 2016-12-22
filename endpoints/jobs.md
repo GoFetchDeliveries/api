@@ -42,4 +42,6 @@ Creates a job that is immediately available for delivery.
 }
 ```
 
-The returned `job_id` will be sent as a parameter in webhooks when a status of the deliver changes. The `price_cents` is an integer.
+The returned `job_id` will be sent as a parameter in webhooks when a status of the deliver changes.
+
+The `price_cents` is an integer. Your credit card will be charged this amount when then item is delivered.
