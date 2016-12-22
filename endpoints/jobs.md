@@ -44,4 +44,4 @@ Creates a job that is immediately available for delivery.
 
 The returned `job_id` will be sent as a parameter in webhooks when a status of the deliver changes.
 
-The `price_cents` is an integer and shows the price of delivery in Australian cents. Your credit card will be charged this amount when the item is delivered.
+The `price_cents` is an integer, it shows the price of delivery in Australian cents. Your credit card will be charged this amount when the item is delivered.
