@@ -42,7 +42,7 @@ Please supply the following headers with your HTTP requests.
 
 ## Errors
 
-Error are reported with a non-2xx status code and contains a single `error` attribute with a text description:
+Error are reported with a non-2xx status code and contain a single `error` attribute with a text description:
 
 ```JSON
 {"error": "You need to sign in or sign up before continuing."}
