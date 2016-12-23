@@ -17,19 +17,17 @@ Production URL: `https://go-fetch.com.au/public_api/v1`
 
 Anyone with a GoFetch user account can access GoFetch API. Here is how to setup your API account on GoFetch staging environment and submit delivery jobs to test your API integration.
 
-1. First, create a user account in the staging [web app](http://www.go-fetch.com.au/webappstaging) and add a card with a test number `4242 4242 4242 4242`.
+1) First, create a user account in the staging [web app](http://www.go-fetch.com.au/webappstaging) and add a card with a test number `4242 4242 4242 4242`.
 
-1. Next, send a [POST sessions](endpoints/sessions.md#create) request with your GoFetch email and password and get your API authentication token. This only needs to be done once when you setup your API integration, since the authentication token does not change. You can then store your authentication token securely and use it for all other API requests in the future.
+2) Next, send a [POST sessions](endpoints/sessions.md#create) request with your GoFetch email and password and get your API authentication token. This only needs to be done once when you setup your API integration, since the authentication token does not change. You can then store your authentication token securely and use it for all other API requests in the future.
 
-1. Check that your authentication works with a `hello_world` request.
+3) Check that your authentication works with a `hello_world` request.
 
 ```bash
 curl -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1
 ```
 
-1. Finally, supply both your email and authentication token in `X-User-Email` and `X-User-Token` HTTP headers when calling all other GoFetch API endpoints.
-
-#### Test access to the API
+4) Finally, send a [create a job](endpoints/jobs.md) request and supply your email and authentication token in `X-User-Email` and `X-User-Token` HTTP headers.
 
 
 ## API request haders
