@@ -38,13 +38,13 @@ Creates a job that is immediately available for delivery.
 ```JSON
 {
   "job_id": "b3131f1d-b501-4f48-a31d-af8e6302540b",
-  "customer_price_cents": 1275
+  "price_cents": 1275
 }
 ```
 
 The returned `job_id` will be sent as a parameter in webhooks when a status of the deliver changes.
 
-The `customer_price_cents` is an integer, it shows the price of delivery in Australian cents. Your credit card will be charged this amount when the item is delivered.
+The `price_cents` is an integer, it shows the price of delivery in Australian cents. Your credit card will be charged this amount when the item is delivered.
 
 ### cURL example
 
