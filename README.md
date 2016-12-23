@@ -58,9 +58,7 @@ GoFetch API returns the following status codes:
 | 401 Unauthorized | Authentication error |
 | 422 Unprocessable Entity | Request contains incorrect parameters |
 
-## Sending API request to production server
-
-Here is how to work with GoFetch production server
+## Working with production server
 
 1) Create a live GoFetch user account with the production [web app]
 (https://www.go-fetch.com.au/webapp/) or the [iOS app](https://itunes.apple.com/au/app/gofetch/id1045358128?mt=8) and add a valid credit card. Your credit card will be charged when your jobs are delivered.
