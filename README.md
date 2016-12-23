@@ -69,7 +69,7 @@ Here is how to work with GoFetch production server
 
 3) Check that your authentication works with a [hello world](endpoints/hello_world.md) request.
 
-4) Finally, send your API requests to the production URL.
+4) Finally, send your API requests to the production URL:
 
 ```
 https://go-fetch.com.au/public_api/v1/
