@@ -23,7 +23,7 @@ Supply your GoFetch email and password to get your API authentication token. The
 }
 ```
 
-Supply the `email` and `password` of your GoFetch user account. If you don't have one, it can be created in the [GoFetch iOS app](https://itunes.apple.com/au/app/gofetch/id1045358128?mt=8) or the web app [www.go-fetch.com.au/webapp/](https://www.go-fetch.com.au/webapp/).
+Supply the `email` and `password` of your GoFetch user account.
 
 ### Response
 
@@ -38,7 +38,7 @@ The returned authentication token is passed in the `X-User-Token` HTTP header to
 ```shell
 curl -H 'Content-Type: application/json' \
   -d '{"user": {"email": "your@email.com", "password": "@9LFpShfE$yA"}}' \
-  https://go-fetch.com.au/public_api/v1/sessions
+  http://test.go-fetch.com.au/public_api/v1/sessions
 ```
 
 
@@ -51,5 +51,5 @@ Regenerates authentication token for your user account, which can be useful if y
 ### cURL example
 
 ```shell
-curl -X "DELETE" -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' https://go-fetch.com.au/public_api/v1/sessions
+curl -X "DELETE" -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/sessions
 ```

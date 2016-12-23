@@ -54,7 +54,7 @@ The `price_cents` is an integer, it shows the price of delivery in Australian ce
 curl -H 'Content-Type: application/json' \
   -H 'X-User-Email: EMAIL' \
   -H 'X-User-Token: TOKEN' \
-  https://go-fetch.com.au/public_api/v1/jobs \
+  http://test.go-fetch.com.au/public_api/v1/jobs \
   -d @- << EOF
 {
   "pickup": {
