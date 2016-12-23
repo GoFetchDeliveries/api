@@ -33,6 +33,8 @@ Creates a job that is immediately available for delivery.
 }
 ```
 
+All attributes are required except `notes_to_fetcher`.
+
 ### Response
 
 ```JSON
