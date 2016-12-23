@@ -1,6 +1,6 @@
 # Webhooks
 
-Manage your webhooks. A webhook is a URL that GoFetch calls when to notify you of something, like a change in a delivery job status.
+Manage your webhooks. A webhook is a URL that GoFetch calls to notify you of something, like a change in a delivery job status.
 
 * [Update job status webhook](#create-a-webhook)
 
