@@ -3,6 +3,7 @@
 Manage your delivery jobs.
 
 * [Create a job](#create-job)
+* [Show a job](#show-job)
 
 ## Create a job
 
@@ -75,3 +76,11 @@ curl -H 'Content-Type: application/json' \
 }
 EOF
 ```
+
+## Show a job
+
+`GET jobs/:job_id`
+
+Returns the job by its ID. It can be useful for checking the current state of the job.
+
+
