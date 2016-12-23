@@ -1,10 +1,10 @@
 # GoFetch API v1 documentation
 
-Welcome to GoFetch API. This API allows to create delivery jobs and get notified of their progress.
+Welcome to GoFetch API. This API allows to create delivery jobs and get notified of their progress. There are two API servers that you can connect to:
 
-**URL for testing**: `http://test.go-fetch.com.au/public_api/v1/`
+**Test**: `http://test.go-fetch.com.au/public_api/v1/`
 
-**URL for production**: `https://go-fetch.com.au/public_api/v1/`
+**Production**: `https://go-fetch.com.au/public_api/v1/`
 
 ## API endpoints
 
