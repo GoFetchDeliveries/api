@@ -60,7 +60,7 @@ GoFetch API returns the following status codes:
 
 ## Working with production server
 
-API requests to products server are sent to
+API requests to production server are sent to
 
 ```
 https://go-fetch.com.au/public_api/v1/
