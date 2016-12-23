@@ -60,6 +60,12 @@ GoFetch API returns the following status codes:
 
 ## Working with production server
 
+APi request to products server needs to be sent to
+
+```
+https://go-fetch.com.au/public_api/v1/
+```
+
 1) Create a live GoFetch user account with the production [web app]
 (https://www.go-fetch.com.au/webapp/) or the [iOS app](https://itunes.apple.com/au/app/gofetch/id1045358128?mt=8) and add a valid credit card. Your credit card will be charged when your jobs are delivered.
 
@@ -67,11 +73,7 @@ GoFetch API returns the following status codes:
 
 3) Check that your authentication works with [hello world](endpoints/hello_world.md) request.
 
-4) Finally, send your API requests to the production URL:
-
-```
-https://go-fetch.com.au/public_api/v1/
-```
+4) Finally, send your job creation API requests to the production server.
 
 ## Feedback is welcome
 
