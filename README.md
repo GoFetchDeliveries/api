@@ -77,5 +77,5 @@ https://go-fetch.com.au/public_api/v1/
 
 ## Feedback is welcome
 
-If you have a question or notice a problem with the API or this documentation feel free to submit an issue or a pull request.
+If you have a question or notice a problem with the API/documentation feel free to submit an issue or a pull request.
 
