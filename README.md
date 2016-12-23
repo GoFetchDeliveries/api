@@ -1,10 +1,6 @@
 # GoFetch API v1 documentation
 
-Welcome to GoFetch API. Anyone with a GoFetch user account can access GoFetch API. This API allows to create delivery jobs and get notified of their progress. There are two API servers that you can send HTTP requests to.
-
-* **Test**: `http://test.go-fetch.com.au/public_api/v1/`
-
-* **Production**: `https://go-fetch.com.au/public_api/v1/`
+Welcome to GoFetch API. Anyone with a GoFetch user account can access GoFetch API. This API allows to create delivery jobs and get notified of their progress.
 
 ## API endpoints
 
