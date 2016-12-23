@@ -15,7 +15,7 @@ Welcome to GoFetch API. This API allows to create delivery jobs and get notified
 
 ## Getting started
 
-Anyone with a GoFetch user account can access GoFetch API. Here is how to send API request to the test API server.
+Anyone with a GoFetch user account can access GoFetch API. Here is how to send API requests to the test API server.
 
 1) First, create a user account in the staging [web app](http://www.go-fetch.com.au/webappstaging) and add a card with a test number `4242 4242 4242 4242`.
 
