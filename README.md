@@ -15,7 +15,7 @@ Production URL: `https://go-fetch.com.au/public_api/v1`
 
 ## Getting started
 
-Anyone with a GoFetch user account can access GoFetch API. Here is how to setup your API account on GoFetch staging environment. You will be able to submit delivery jobs and test your API integration.
+Anyone with a GoFetch user account can access GoFetch API. Here is how to setup your API account on GoFetch staging environment and submit delivery jobs to test your API integration.
 
 1. First, create a user account in the staging [web app](http://www.go-fetch.com.au/webappstaging) and add a card with a test number `4242 4242 4242 4242`.
 
