@@ -3,7 +3,7 @@
 Manage your delivery jobs.
 
 * [Create a job](#create-a-job)
-* [Show a job](#show-job)
+* [Show job](#show-job)
 
 ## Create a job
 
