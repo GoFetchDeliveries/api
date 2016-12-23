@@ -71,7 +71,7 @@ https://go-fetch.com.au/public_api/v1/
 
 2. Retrieve your production authentication token with [create a session](endpoints/sessions.md#create) request. Store your authentication token securely and use it for all other API requests.
 
-3. Check that your authentication works with [hello world](endpoints/hello_world.md) request.
+3. Check that your authentication works with a [hello world](endpoints/hello_world.md) request.
 
 4. Finally, send your job creation API requests to the production server.
 
