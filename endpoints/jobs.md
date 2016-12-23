@@ -2,7 +2,7 @@
 
 Manage your delivery jobs.
 
-* [Create a job](#create-job)
+* [Create a job](#create-a-job)
 * [Show a job](#show-job)
 
 ## Create a job
@@ -77,10 +77,26 @@ curl -H 'Content-Type: application/json' \
 EOF
 ```
 
-## Show a job
+## Show job
 
 `GET jobs/:job_id`
 
-Returns the job by its ID. It can be useful for checking the current state of the job.
+Returns information about a delivery job. It can be useful for checking the current state of the job. If the item has been picked up this request will also return the name and phone of the fetcher.
 
+### Response
+
+```JSON
+{
+  "state": "delivering",
+  "fetcher_name": "Kate Eriksson",
+  "fetcher_phone": "0243934923"
+}
+```
+Parameters `fetcher_name` and `fetcher_phone` are empty if the item has not been picked up yet.
+
+### cURL example
+
+```shell
+curl -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/jobs/b3131f1d-b501-4f48-a31d-af8e6302540b
+```
 
