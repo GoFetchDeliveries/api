@@ -24,7 +24,7 @@ http://test.go-fetch.com.au/public_api/v1/
 3) Check that your authentication works with a [hello world](endpoints/hello_world.md) request.
 
 ```bash
-curl -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1
+curl -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/hello_world
 ```
 
 4) Finally, send [create a job](endpoints/jobs.md) request and supply your email and authentication token in `X-User-Email` and `X-User-Token` HTTP headers.
