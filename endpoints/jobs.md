@@ -71,7 +71,7 @@ curl -H 'Content-Type: application/json' \
     "contact_name": "Saida Kronecker",
     "contact_phone": "040191332"
   },
-  "notes_to_fetcher": "Pickup in the ministry. Dropoff: a rickety house with a pink garden gnome."
+  "notes_to_fetcher": "Please pickup in the ministry. Dropoff at a rickety house with a pink garden gnome."
 }
 EOF
 ```
