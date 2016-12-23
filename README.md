@@ -2,15 +2,15 @@
 
 Welcome to GoFetch API. This API allows to create delivery jobs and get notified of their progress.
 
+API URL for testing: `http://test.go-fetch.com.au/public_api/v1`
+
+API URL for production: `https://go-fetch.com.au/public_api/v1`
+
 ## API endpoints
 
 * [Hello World](endpoints/hello_world.md)
 * [Jobs](endpoints/jobs.md)
 * [Sessions](endpoints/sessions.md)
-
-Test URL: `http://test.go-fetch.com.au/public_api/v1`
-
-Production URL: `https://go-fetch.com.au/public_api/v1`
 
 
 ## Getting started
