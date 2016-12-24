@@ -74,7 +74,7 @@ https://go-fetch.com.au/public_api/v1/
 
 3. Check that your authentication works with a [hello world](endpoints/hello_world.md) request.
 
-4. Finally, send your job creation and other API requests to the production server.
+4. Congratulations, you are now ready to send your job creation (and other) API requests to the production server.
 
 ## Feedback is welcome
 
