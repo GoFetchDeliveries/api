@@ -21,7 +21,7 @@ http://test.go-fetch.com.au/public_api/v1/
 
 2) Next, send [create a session](endpoints/sessions.md#create) request with your GoFetch email and password and get your API authentication token. This only needs to be done once when you setup your API integration, since the authentication token does not change. You can then store your authentication token and use it for all other API requests in the future.
 
-3) Check that your authentication works with a [hello world](endpoints/hello_world.md) request.
+3) Almost there. Check that your authentication works with a [hello world](endpoints/hello_world.md) request.
 
 ```bash
 curl -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/hello_world
@@ -74,9 +74,9 @@ https://go-fetch.com.au/public_api/v1/
 
 3. Check that your authentication works with a [hello world](endpoints/hello_world.md) request.
 
-4. Congratulations, you are now ready to send your job creation (and other) API requests to the production server.
+4. Congratulations! You are now ready to send your job creation (and other) API requests to the production server.
 
-## Feedback is welcome
+## Your help is welcome 👍 
 
 If you have a question or notice a problem with the API/documentation feel free to submit an issue or a pull request.
 
