@@ -45,7 +45,7 @@ All attributes are required except `notes_to_fetcher`.
 }
 ```
 
-The returned `job_id` will be sent as a parameter in webhooks when a status of the delivery changes.
+The returned `job_id` will be sent as a parameter in webhooks to notify you about the job's progress.
 
 The `price_cents` is an integer, it's the price of delivery in Australian cents. Your credit card will be charged this amount when the item is delivered.
 
