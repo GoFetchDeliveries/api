@@ -56,6 +56,7 @@ GoFetch API returns the following status codes:
 | --- | --- |
 | 2xx Success | Request has succeeded |
 | 401 Unauthorized | Authentication error |
+| 404 Not Found | Requested resourse not found |
 | 422 Unprocessable Entity | Request contains incorrect parameters |
 
 ## Working with production server
