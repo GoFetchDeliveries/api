@@ -1,4 +1,4 @@
-# GoFetch API v1 documentation
+# 🐶 GoFetch API v1 documentation
 
 Welcome to GoFetch API. Anyone with a GoFetch user account can access GoFetch API. This API allows to create delivery jobs and get notified of their progress.
 
