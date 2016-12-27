@@ -21,7 +21,7 @@ Returns an empty response.
 
 The `name` parameter can be one of the following:
 
-* **job_status**: sent when the status of your delivery job changes. The job ID and the new state of the job will be passed, for example:
+* **job_status**: sent when the state of your delivery job changes. The job ID and the new state of the job will be passed, for example:
 
 ```
 https://website.net/webhook?job_id=b3131f1d&state=delivering
