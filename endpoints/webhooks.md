@@ -1,6 +1,6 @@
 # Webhooks
 
-Manage your webhooks. A webhook is a URL that GoFetch uses to send you job notifications or status changes. HTTP GET requests are used for all webhooks.
+Supply URLs that will be called by GoFetch to send you job notifications or status changes. HTTP GET requests are used for all webhooks.
 
 * [Create a webhook](#create-a-webhook)
 
