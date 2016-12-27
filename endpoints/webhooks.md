@@ -6,17 +6,18 @@ Supply URLs that will be called by GoFetch to send you notifications and job sta
 
 ## Create a webhook
 
-`POST webhooks/:webhook_name`
+`POST webhooks`
 
 ### Request data
 
 ```JSON
 {
+  "type": "job_status",
   "url": "https://website.net/webhook"
 }
 ```
 
-`:webhook_name` URL parameter can be one of the following:
+The `type` parameter is the webhook type and can be one of the following:
 
 * **job_status**. Sent when the status of your delivery job changes. The job ID and the new state of the job will be passed, for example:
 
