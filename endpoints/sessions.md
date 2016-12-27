@@ -16,10 +16,8 @@ Supply your GoFetch email and password to get your API authentication token. The
 
 ```JSON
 {
-  "user": {
-    "email": "amanda.woo@hoverboard.net",
-    "password": "Wa9nhCe@QFp"
-  }
+  "email": "amanda.woo@hoverboard.net",
+  "password": "Wa9nhCe@QFp"
 }
 ```
 
@@ -37,7 +35,7 @@ The returned authentication token is passed in the `X-User-Token` HTTP header to
 
 ```shell
 curl -H 'Content-Type: application/json' \
-  -d '{"user": {"email": "your@email.com", "password": "@9LFpShfE$yA"}}' \
+  -d '{"email": "your@email.com", "password": "@9LFpShfE$yA"}' \
   http://test.go-fetch.com.au/public_api/v1/sessions
 ```
 
