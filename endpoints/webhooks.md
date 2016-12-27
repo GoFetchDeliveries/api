@@ -8,6 +8,8 @@ Supply URLs that will be called by GoFetch to send you notifications and job sta
 
 `POST webhooks`
 
+Returns an empty response.
+
 ### Request data
 
 ```JSON
@@ -29,4 +31,11 @@ https://website.net/webhook?job_id=b3131f1d&state=delivering
 
 ```
 https://website.net/webhook?job_id=b3131f1d&notification=fetcher_approaching_dropoff
+```
+
+
+### cURL example
+
+```shell
+curl -d '{"name": "notification", "url": "http://webhook42.net/url"}' -H 'Content-Type: application/json' -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/webhooks
 ```
