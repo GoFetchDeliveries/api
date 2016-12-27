@@ -21,11 +21,11 @@ Supply URLs that will be called by GoFetch to send you job notifications or stat
 * **job_status**. The webhook URL will be requested when the status of your delivery job changes. The job ID and the new state of the job will be passed, for example:
 
 ```
-https://website.net/webhook?job_id=b3131f1d-b501-4f48-a31d-af8e6302540b&state=delivering
+https://website.net/webhook?job_id=b3131f1d&state=delivering
 ```
 
 * **notification**. The webhook is called to send you a notification about a job. The job ID and the notification name of the job parameters will be passed, for example:
 
 ```
-https://website.net/webhook?job_id=b3131f1d-b501-4f48-a31d-af8e6302540b&notification=fetcher_approaching_dropoff
+https://website.net/webhook?job_id=b3131f1d&notification=fetcher_approaching_dropoff
 ```
