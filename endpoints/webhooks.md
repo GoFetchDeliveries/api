@@ -12,12 +12,12 @@ Supply URLs that will be called by GoFetch to send you notifications and job sta
 
 ```JSON
 {
-  "type": "job_status",
+  "name": "job_status",
   "url": "https://website.net/webhook"
 }
 ```
 
-The `type` parameter is the webhook type and can be one of the following:
+The `name` parameter can be one of the following:
 
 * **job_status**. Sent when the status of your delivery job changes. The job ID and the new state of the job will be passed, for example:
 
