@@ -24,7 +24,7 @@ Supply URLs that will be called by GoFetch to send you job notifications or stat
 https://website.net/webhook?job_id=b3131f1d&state=delivering
 ```
 
-* **notification**. This webhook is called to send you a notification, same type as the iOS app users get. The job ID and the notification name of the job parameters will be passed, for example:
+* **notification**. This webhook is called to send you a notification, same type as the iOS app users get. The job ID and the notification name will be passed, for example:
 
 ```
 https://website.net/webhook?job_id=b3131f1d&notification=fetcher_approaching_dropoff
