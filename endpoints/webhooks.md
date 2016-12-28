@@ -2,8 +2,9 @@
 
 Supply URLs that will be called by GoFetch to send you notifications and job status changes. HTTP GET requests are used for all webhooks.
 
-* [List webhooks](#list-webhooks)
 * [Create a webhook](#create-a-webhook)
+* [List webhooks](#list-webhooks)
+* [Remove webhook](#remove-webhook)
 
 
 ## List webhooks
@@ -34,6 +35,9 @@ Returns your webhooks.
 ```shell
 curl -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/webhooks
 ```
+
+
+
 
 ## Create a webhook
 
@@ -72,3 +76,19 @@ Note: only one webhook per name can be created.
 ```shell
 curl -d '{"name": "notification", "url": "http://webhook42.net/url"}' -H 'Content-Type: application/json' -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/webhooks
 ```
+
+
+
+
+## Remove webhook
+
+`DELETE webhooks/:name`
+
+Removes a webhook with the specified name. The `:name` parameter can be **notification** or **notification**.
+
+### cURL example
+
+```shell
+curl -X "DELETE" -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/webhooks/job_status
+```
+
