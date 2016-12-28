@@ -84,7 +84,7 @@ curl -d '{"name": "notification", "url": "http://webhook42.net/url"}' -H 'Conten
 
 `DELETE webhooks/:name`
 
-Removes a webhook with the specified name. The `:name` parameter can be **notification** or **notification**.
+Removes a webhook with the specified name. The `:name` parameter can be **job_status** or **notification**.
 
 ### cURL example
 
