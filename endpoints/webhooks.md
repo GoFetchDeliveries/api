@@ -64,6 +64,8 @@ https://website.net/webhook?job_id=b3131f1d&state=delivering
 https://website.net/webhook?job_id=b3131f1d&notification=fetcher_approaching_dropoff
 ```
 
+Note: only one webhook with for each given name can be created.
+
 
 ### cURL example
 
