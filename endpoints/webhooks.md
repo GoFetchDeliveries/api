@@ -2,7 +2,38 @@
 
 Supply URLs that will be called by GoFetch to send you notifications and job status changes. HTTP GET requests are used for all webhooks.
 
+* [List webhooks](#list-webhooks)
 * [Create a webhook](#create-a-webhook)
+
+
+## List webhooks
+
+`GET webhooks`
+
+Returns your webhooks.
+
+### Response
+
+```JSON
+{
+  "webhooks": [
+    {
+      "name": "job_status",
+      "url": "https://website.net/url1"
+    },
+    {
+      "name": "notification",
+      "url": "https://website.net/url2"
+    }
+  ]
+}
+```
+
+### cURL example
+
+```shell
+curl -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/webhooks
+```
 
 ## Create a webhook
 
