@@ -39,7 +39,7 @@ curl -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.
 
 `POST webhooks`
 
-Returns an empty response.
+Creates a webhook, returns an empty response.
 
 ### Request data
 
