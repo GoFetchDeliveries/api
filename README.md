@@ -7,6 +7,7 @@ Welcome to GoFetch API. Anyone with a GoFetch user account can access GoFetch AP
 * [Hello World](endpoints/hello_world.md)
 * [Jobs](endpoints/jobs.md)
 * [Sessions](endpoints/sessions.md)
+* [Webhooks](endpoints/webhooks.md)
 
 
 ## Getting started in the test environment
