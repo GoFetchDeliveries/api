@@ -73,6 +73,8 @@ Note: only one webhook per name can be created.
 
 ### cURL example
 
+Create a notification webhook:
+
 ```shell
 curl -d '{"name": "notification", "url": "http://webhook42.net/url"}' -H 'Content-Type: application/json' -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/webhooks
 ```
@@ -87,6 +89,8 @@ curl -d '{"name": "notification", "url": "http://webhook42.net/url"}' -H 'Conten
 Removes a webhook with the specified name. The `:name` parameter can be **job_status** or **notification**.
 
 ### cURL example
+
+Remove the *job status* webhook:
 
 ```shell
 curl -X "DELETE" -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/webhooks/job_status
