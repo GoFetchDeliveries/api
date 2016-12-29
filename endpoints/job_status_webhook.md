@@ -47,7 +47,7 @@ Returns empty response.
 }
 ```
 
-Save the URL for the job status web hook. GoFetch will send GET request to this URL supplying `job_id` and `job_status` URL parameters, for example:
+Save the URL for the job status webhook. GoFetch will send GET request to this URL supplying `job_id` and `job_status` URL parameters, for example:
 
 ```
 https://website.net/webhook?job_id=b3131f1d&job_status=fetcher_approaching_dropoff
