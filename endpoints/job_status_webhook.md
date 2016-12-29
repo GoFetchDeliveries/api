@@ -2,9 +2,10 @@
 
 Supply URLs that will be called by GoFetch to notify you when the status of a job changes.
 
-* [Get the webhook](#get-the-webhook)
-* [Update the webhook](#update-the-webhook)
-* [Delete the webhook](#delete-the-webhook)
+* [Show the job status webhook](#show-the-job-status-webhook)
+* [Update the job status webhook](#update-the-job-status-webhook)
+* [Remove the job status webhook](#remove-the-job-status-webhook)
+* [Test the job status webhook](#remove-the-job-status-webhook)
 
 
 ## Show the job status webhook
@@ -31,7 +32,7 @@ curl -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.
 
 
 
-## Create the job status webhook
+## Update the job status webhook
 
 `PUT webhooks/job_status`
 
