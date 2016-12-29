@@ -36,7 +36,7 @@ curl -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.
 
 `PUT webhooks/job_status`
 
-Returns empty response.
+If the webhook does not exist, it will create one. Returns empty response.
 
 ### Request data
 
