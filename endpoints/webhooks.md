@@ -91,14 +91,27 @@ curl -X "DELETE" -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.g
 
 ## Test a webhook
 
-`POST webhooks/:name`
+`POST webhooks/test/:name`
 
 Sends a test HTTP request to your webhook URL. This can be used for testing the webhooks.
 
+### Request data
+
+Supply the *job_id* and *job_status* values that will be used in the webhook URL.
+
+```JSON
+{
+  "job_id": "b3131f1d",
+  "job_status": "fetcher_approaching_dropoff"
+}
+```
+
 ### cURL example
 
-Calls the *job status* webhook:
+Tests the *job status* webhook. 
 
 ```shell
-curl -d '{"job_id": "job_status", "url": "http://webhook42.net/url"}' -H 'Content-Type: application/json' -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/webhooks/job_status
+curl -d '{"job_id": "b3131f1d", "job_status": "fetcher_approaching_dropoff"}' -H 'Content-Type: application/json' -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/webhooks/job_status
 ```
+
+GoFetch server will call back your *job_status* webhook URL with the supplied parameters.
