@@ -52,7 +52,7 @@ Creates a webhook, returns empty response.
 }
 ```
 
-The `name` parameter can be one of the following:
+Currently there is only one accepted value for the `name` parameter:
 
 * **job_status**: sent when the status of your delivery job changes. The job ID and the job status will be passed, for example:
 
