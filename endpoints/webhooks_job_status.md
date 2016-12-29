@@ -7,7 +7,7 @@ Supply URLs that will be called by GoFetch to notify you when the status of a jo
 * [Delete the webhook](#delete-the-webhook)
 
 
-## List webhooks
+## Show the job status webhook
 
 `GET webhooks/job_status`
 
@@ -29,7 +29,9 @@ curl -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.
 ```
 
 
-## Create a webhook
+
+
+## Create the job status webhook
 
 `PUT webhooks/job_status`
 
@@ -59,4 +61,51 @@ curl -d '{"url": "http://webhook42.net/example"}' -H 'Content-Type: application/
 ```
 
 
-## Remove webhook
+
+
+## Remove the job status webhook
+
+
+`DELETE webhooks/job_status`
+
+Remove the job_status webhook if you no longer with to receive the notifications.
+
+### cURL example
+
+
+```shell
+curl -X "DELETE" -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/webhooks/job_status
+```
+
+
+
+
+
+## Test the job status webhook
+
+
+`POST webhooks/job_status/test`
+
+Sends a test HTTP request to your webhook URL. This can be useful for debugging your API integration.
+
+### Request data
+
+Supply the *job_id* and *job_status* values that will be used in the webhook URL. This request will not change the status of the job. It will pretend that the status was changed by sending you a notification with this status.
+
+```JSON
+{
+  "job_id": "b3131f1d",
+  "job_status": "fetcher_approaching_dropoff"
+}
+```
+
+### cURL example
+
+Tests the *job status* webhook.
+
+```shell
+curl -d '{"job_id": "b3131f1d", "job_status": "fetcher_approaching_dropoff"}' -H 'Content-Type: application/json' -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/webhooks/job_status
+```
+
+GoFetch server will call back your job status webhook URL with the supplied parameters.
+
