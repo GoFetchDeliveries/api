@@ -12,7 +12,7 @@ Supply a URL that will be called by GoFetch to notify you when the status of a j
 
 `GET webhooks/job_status`
 
-Returns your job status webhook url.
+Returns your job status webhook URL.
 
 
 ### Response
