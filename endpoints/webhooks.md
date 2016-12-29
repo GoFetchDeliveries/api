@@ -93,7 +93,7 @@ curl -X "DELETE" -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.g
 
 `POST webhooks/:name`
 
-Sends HTTP request to your webhook URL. This can be used for testing the webhooks.
+Sends a test HTTP request to your webhook URL. This can be used for testing the webhooks.
 
 ### cURL example
 
