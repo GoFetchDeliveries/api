@@ -100,5 +100,5 @@ Sends a test HTTP request to your webhook URL. This can be used for testing the 
 Calls the *job status* webhook:
 
 ```shell
-curl -X POST -H 'Content-Type: application/json' -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/webhooks/job_status
+curl -d '{"job_id": "job_status", "url": "http://webhook42.net/url"}' -H 'Content-Type: application/json' -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/webhooks/job_status
 ```
