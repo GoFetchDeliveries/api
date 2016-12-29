@@ -22,11 +22,7 @@ Returns your webhooks.
   "webhooks": [
     {
       "name": "job_status",
-      "url": "https://website.net/url1"
-    },
-    {
-      "name": "notification",
-      "url": "https://website.net/url2"
+      "url": "https://website.net/notify"
     }
   ]
 }
@@ -58,27 +54,20 @@ Creates a webhook, returns empty response.
 
 The `name` parameter can be one of the following:
 
-* **job_status**: sent when the state of your delivery job changes. The job ID and the new state of the job will be passed, for example:
+* **job_status**: sent when the status of your delivery job changes. The job ID and the job status will be passed, for example:
 
 ```
-https://website.net/webhook?job_id=b3131f1d&state=delivering
+https://website.net/webhook?job_id=b3131f1d&job_status=fetcher_approaching_dropoff
 ```
 
-* **notification**: this webhook is called to send you a notification, same type as the iOS app users get. The job ID and the notification name will be passed, for example:
-
-```
-https://website.net/webhook?job_id=b3131f1d&notification=fetcher_approaching_dropoff
-```
-
-Note: only one webhook per name can be created.
 
 
 ### cURL example
 
-Create a *notification* webhook:
+Create a *job_status* webhook:
 
 ```shell
-curl -d '{"name": "notification", "url": "http://webhook42.net/url"}' -H 'Content-Type: application/json' -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/webhooks
+curl -d '{"name": "job_status", "url": "http://webhook42.net/url"}' -H 'Content-Type: application/json' -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/webhooks
 ```
 
 
@@ -88,7 +77,7 @@ curl -d '{"name": "notification", "url": "http://webhook42.net/url"}' -H 'Conten
 
 `DELETE webhooks/:name`
 
-Removes a webhook with the specified name. The `:name` parameter can be **job_status** or **notification**.
+Removes a webhook with the specified name. The `:name` parameter should be **job_status**.
 
 ### cURL example
 
