@@ -5,9 +5,9 @@ Welcome to GoFetch API. Anyone with a GoFetch user account can access GoFetch AP
 ## API endpoints
 
 * [Hello World](endpoints/hello_world.md)
+* [Job status webhook](endpoints/job_status_webhook.md)
 * [Jobs](endpoints/jobs.md)
 * [Sessions](endpoints/sessions.md)
-* [Webhooks](endpoints/webhooks.md)
 
 
 ## Getting started in the test environment
@@ -77,7 +77,7 @@ https://go-fetch.com.au/public_api/v1/
 
 4. Congratulations! You are now ready to send your job creation (and other) API requests to the production server.
 
-## Your help is welcome 👍 
+## Your help is welcome 👍
 
 If you have a question or notice a problem with the API/documentation feel free to submit an issue or a pull request.
 
