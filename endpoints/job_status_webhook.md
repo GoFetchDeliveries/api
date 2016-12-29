@@ -5,7 +5,7 @@ Supply URLs that will be called by GoFetch to notify you when the status of a jo
 * [Show](#show-the-job-status-webhook)
 * [Update](#update-the-job-status-webhook)
 * [Remove](#remove-the-job-status-webhook)
-* [Test](#remove-the-job-status-webhook)
+* [Test](#test-the-job-status-webhook)
 
 
 ## Show the job status webhook
