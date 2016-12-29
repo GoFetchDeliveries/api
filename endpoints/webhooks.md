@@ -7,6 +7,7 @@ Supply URLs that will be called by GoFetch to norify you when the status of a jo
 * [Create a webhook](#create-a-webhook)
 * [List webhooks](#list-webhooks)
 * [Remove webhook](#remove-webhook)
+* [Test a webhook](#test-a-webhook)
 
 
 ## List webhooks
@@ -87,3 +88,17 @@ Remove the *job status* webhook:
 curl -X "DELETE" -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/webhooks/job_status
 ```
 
+
+## Test a webhook
+
+`POST webhooks/:name`
+
+Sends HTTP request to your webhook URL. This can be used for testing the webhooks.
+
+### cURL example
+
+Calls the *job status* webhook:
+
+```shell
+curl -X POST -H 'Content-Type: application/json' -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/webhooks/job_status
+```
