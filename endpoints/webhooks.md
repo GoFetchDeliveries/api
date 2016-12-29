@@ -2,7 +2,7 @@
  
 # Webhooks
 
-Supply URLs that will be called by GoFetch to send you notifications and job status changes. HTTP GET requests are used for all webhooks.
+Supply URLs that will be called by GoFetch to norify you when the status of a job changes. HTTP GET requests are used for all webhooks.
 
 * [Create a webhook](#create-a-webhook)
 * [List webhooks](#list-webhooks)
