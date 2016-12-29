@@ -107,6 +107,3 @@ Tests the *job status* webhook.
 ```shell
 curl -d '{"job_id": "b3131f1d", "job_status": "fetcher_approaching_dropoff"}' -H 'Content-Type: application/json' -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/webhooks/job_status/test
 ```
-
-GoFetch server will call back your job status webhook URL with the supplied parameters.
-
