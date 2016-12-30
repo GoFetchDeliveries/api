@@ -106,7 +106,7 @@ Sends a test HTTP request to your webhook URL. This can be useful for debugging 
 
 ### Request data
 
-Supply the *job_id* and *job_status* values that will be used in the webhook URL. The job with the supplied id does not need to exist, and if it does, this request will not change the status of the job. This request will "pretend" that the status was changed by sending you a notification with the `job_status` value that you supplied.
+Supply the *job_id* and *job_status* values that will be sent to your webhook URL. The job does not need to exist, and if it does, this request will not change the status of the job.
 
 ```JSON
 {
@@ -117,7 +117,7 @@ Supply the *job_id* and *job_status* values that will be used in the webhook URL
 
 ### cURL example
 
-Calls your *job status* webhook.
+Calls your *job status* webhook with the supplied data.
 
 ```shell
 curl -d '{"job_id": "b3131f1d", "job_status": "fetcher_approaching_dropoff"}' -H 'Content-Type: application/json' -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/webhooks/job_status/test
