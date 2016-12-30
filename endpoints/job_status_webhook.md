@@ -9,10 +9,14 @@ Supply a URL that will be called by GoFetch to notify you when the status of a j
 
 ### Webhook URL
 
-GoFetch will send GET requests to your webhook URL and supply `job_id` and `job_status` URL parameters, for example:
+GoFetch will send a POST request to your webhook URL and supply `job_id` and `job_status` JSON data, for example:
 
-```
-https://website.net/webhook?job_id=b3131f1d&job_status=fetcher_approaching_dropoff
+
+```JSON
+{
+  "job_id": "b3131f1d",
+  "job_status": "fetcher_approaching_dropoff"
+}
 ```
 
 The `job_status` parameter will be one of the following:
