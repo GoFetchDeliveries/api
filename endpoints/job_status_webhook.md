@@ -15,7 +15,7 @@ GoFetch will send GET requests to your webhook URL and supply `job_id` and `job_
 https://website.net/webhook?job_id=b3131f1d&job_status=fetcher_approaching_dropoff
 ```
 
-The `job_status` will be one of the following:
+The `job_status` parameter will be one of the following:
 
 | Status | Description |
 | --- | --- |
