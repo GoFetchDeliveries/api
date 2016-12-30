@@ -1,5 +1,5 @@
 🚧 🚧 🚧 Under construction 🚧 🚧 🚧
- 
+
 # Webhooks
 
 Supply URLs that will be called by GoFetch to norify you when the status of a job changes. HTTP GET requests are used for all webhooks.
@@ -62,6 +62,13 @@ https://website.net/webhook?job_id=b3131f1d&job_status=fetcher_approaching_dropo
 ```
 
 
+### Job statuses
+
+| Status | Description |
+| --- | --- |
+| fetcher_approaching_dropoff | Fetcher is within 100 meters from the dropoff location |
+| delivered | The item has been delivered |
+
 
 ### cURL example
 
@@ -108,7 +115,7 @@ Supply the *job_id* and *job_status* values that will be used in the webhook URL
 
 ### cURL example
 
-Tests the *job status* webhook. 
+Tests the *job status* webhook.
 
 ```shell
 curl -d '{"job_id": "b3131f1d", "job_status": "fetcher_approaching_dropoff"}' -H 'Content-Type: application/json' -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/webhooks/job_status
