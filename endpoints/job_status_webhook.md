@@ -1,11 +1,18 @@
 # Job status webhook
 
-Supply a URL that will be called by GoFetch to notify you when the status of a job changes (fetcher approaching dropoff, delivered etc.)
+Supply a URL that will be called by GoFetch to notify you when the status of a job changes.
 
 * [Show](#show-the-job-status-webhook)
 * [Update](#update-the-job-status-webhook)
 * [Remove](#remove-the-job-status-webhook)
 * [Test](#test-the-job-status-webhook)
+
+### Job statuses
+
+| Status | Description |
+| --- | --- |
+| fetcher_approaching_dropoff | Fetcher is within 100 meters from the dropoff location |
+| delivered | The item has been delivered |
 
 
 ## Show the job status webhook
