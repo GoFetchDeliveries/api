@@ -62,7 +62,7 @@ If the webhook does not exist, it will create one. Returns empty response.
 }
 ```
 
-Save the URL for the job status webhook.
+Save the webhook URL.
 
 
 ### cURL example
