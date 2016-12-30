@@ -7,7 +7,15 @@ Supply a URL that will be called by GoFetch to notify you when the status of a j
 * [Remove](#remove-the-job-status-webhook)
 * [Test](#test-the-job-status-webhook)
 
-### Job statuses
+### Webhook URL
+
+GoFetch will send GET requests to this URL supplying `job_id` and `job_status` URL parameters, for example:
+
+```
+https://website.net/webhook?job_id=b3131f1d&job_status=fetcher_approaching_dropoff
+```
+
+The `job_status` will be one of the following:
 
 | Status | Description |
 | --- | --- |
@@ -54,11 +62,7 @@ If the webhook does not exist, it will create one. Returns empty response.
 }
 ```
 
-Save the URL for the job status webhook. GoFetch will send GET requests to this URL supplying `job_id` and `job_status` URL parameters, for example:
-
-```
-https://website.net/webhook?job_id=b3131f1d&job_status=fetcher_approaching_dropoff
-```
+Save the URL for the job status webhook.
 
 
 ### cURL example
