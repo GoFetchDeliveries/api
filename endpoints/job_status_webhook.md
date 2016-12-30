@@ -15,7 +15,7 @@ GoFetch will send a POST request to your webhook URL with JSON data, for example
 ```JSON
 {
   "job_id": "b3131f1d",
-  "job_status": "fetcher_approaching_dropoff"
+  "job_status": "delivered"
 }
 ```
 
@@ -23,8 +23,8 @@ The `job_status` parameter will be one of the following:
 
 | Status | Description |
 | --- | --- |
-| fetcher_approaching_dropoff | Fetcher is within 100 meters from the dropoff location |
 | delivered | The item has been delivered |
+| fetcher_approaching_dropoff | Fetcher is within 100 meters from the dropoff location |
 
 
 ## Show the job status webhook
