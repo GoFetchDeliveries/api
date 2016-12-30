@@ -91,7 +91,7 @@ Sends a test HTTP request to your webhook URL. This can be useful for debugging 
 
 ### Request data
 
-Supply the *job_id* and *job_status* values that will be used in the webhook URL. The job with the supplied id needs to be present (if it's not, create a job first). This request will not change the status of the job. It will "pretend" that the status was changed by sending you a notification with the `job_status` value that you supplied.
+Supply the *job_id* and *job_status* values that will be used in the webhook URL. The job with the supplied id does not need to exist, and if it does, this request will not change the status of the job. This request will "pretend" that the status was changed by sending you a notification with the `job_status` value that you supplied.
 
 ```JSON
 {
