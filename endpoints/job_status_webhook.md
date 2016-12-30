@@ -102,7 +102,7 @@ Supply the *job_id* and *job_status* values that will be used in the webhook URL
 
 ### cURL example
 
-Tests the *job status* webhook.
+Calls your *job status* webhook.
 
 ```shell
 curl -d '{"job_id": "b3131f1d", "job_status": "fetcher_approaching_dropoff"}' -H 'Content-Type: application/json' -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/webhooks/job_status/test
