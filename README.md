@@ -18,7 +18,7 @@ API requests to test server are sent to
 http://test.go-fetch.com.au/public_api/v1/
 ```
 
-1) First, create a user account in the [test web app](http://www.go-fetch.com.au/webappstaging) and add a credit card with a test number `4242 4242 4242 4242`.
+1) First, create a user account in the [test web app](http://app.go-fetch.com.au/staging) and add a credit card with a test number `4242 4242 4242 4242`.
 
 2) Next, send [create a session](endpoints/sessions.md#create) request with your GoFetch email and password and get your API authentication token. This only needs to be done once when you setup your API integration, since the authentication token does not change. You can then store your authentication token and use it for all other API requests in the future.
 
