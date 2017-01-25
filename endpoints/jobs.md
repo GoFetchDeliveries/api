@@ -34,7 +34,7 @@ Creates a job that is immediately available for delivery.
 }
 ```
 
-All attributes are required except `latitude`, `longitude` and `notes_to_fetcher`. If you don't supply `latitude` and `longitude` GoFetch will try to geocode from the `full_address` text field.
+All attributes are required except `latitude`, `longitude` and `notes_to_fetcher`. If you don't supply `latitude` and `longitude` GoFetch will try to geocode them from the `full_address` text field.
 
 ### Response
 
