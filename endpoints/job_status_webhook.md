@@ -14,7 +14,7 @@ GoFetch will send a POST request to your webhook URL with JSON data, for example
 
 ```JSON
 {
-  "job_id": "b3131f1d",
+  "job_id": "b3131f1d-b501-4f48-a31d-af8e6302540b",
   "job_status": "delivered"
 }
 ```
@@ -110,7 +110,7 @@ Supply the *job_id* and *job_status* values that will be sent to your webhook UR
 
 ```JSON
 {
-  "job_id": "b3131f1d",
+  "job_id": "b3131f1d-b501-4f48-a31d-af8e6302540b",
   "job_status": "fetcher_approaching_dropoff"
 }
 ```
@@ -120,5 +120,5 @@ Supply the *job_id* and *job_status* values that will be sent to your webhook UR
 Calls your *job status* webhook with the supplied data.
 
 ```shell
-curl -d '{"job_id": "b3131f1d", "job_status": "fetcher_approaching_dropoff"}' -H 'Content-Type: application/json' -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/webhooks/job_status/test
+curl -d '{"job_id": "b3131f1d-b501-4f48-a31d-af8e6302540b", "job_status": "fetcher_approaching_dropoff"}' -H 'Content-Type: application/json' -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.au/public_api/v1/webhooks/job_status/test
 ```
