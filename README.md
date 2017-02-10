@@ -69,7 +69,7 @@ https://go-fetch.com.au/public_api/v1/
 ```
 
 1. Create a live GoFetch user account with the [production web app]
-(http://app.go-fetch.com.au/) or the [iOS app](https://itunes.apple.com/au/app/gofetch/id1045358128?mt=8) and add a valid credit card. Your credit card will be charged when your jobs are delivered. If there are multiple credit cards associated with your account, only the first one will be used. So it's better to keep just one card.
+(http://app.go-fetch.com.au/) or the [iOS app](https://itunes.apple.com/au/app/gofetch/id1045358128?mt=8) and add a valid credit card. Your credit card will be charged when your jobs are delivered. If there are multiple credit cards associated with your account, only the first one will be used.
 
 2. Retrieve your production authentication token with [create a session](endpoints/sessions.md#create) request. Store your authentication token securely and use it for all other API requests.
 
