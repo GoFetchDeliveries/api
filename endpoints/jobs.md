@@ -81,18 +81,40 @@ EOF
 
 `GET jobs/:job_id`
 
-Returns information about a delivery job. It can be useful for checking the current state of the job. If the item has been picked up this request will also return the name and phone of the fetcher.
+Returns information about a delivery job. It can be useful for checking the current state of the job.
 
 ### Response
 
 ```JSON
 {
-  "state": "delivering",
-  "fetcher_name": "Kate Eriksson",
-  "fetcher_phone": "0243934923"
+  "id": "e2c5e27d-fb56-498c-b5f5-ed70adf64be6",
+  "state": "delivered",
+  "created_at": "2016-01-22T03:12:01.607+11:00",
+  "picked_up_at": "2017-02-22T09:46:01.607+11:00",
+  "delivered_at": "2020-01-17T09:46:01.607+11:00",
+  "notes_to_fetcher": "Please pickup in the ministry. Dropoff at a rickety house with a pink garden gnome.",
+  "price_cents": 980,
+  "fetcher": {
+    "name": "Magna Perkovitch",
+    "phone": "0303111222"
+  },
+  "pickup": {
+    "latitude": -37.813068,
+    "longitude": 144.995311,
+    "full_address": "52 Lennox St, Richmond VIC 3121",
+    "contact_name": "Amanda Woo",
+    "contact_phone": "0403853234"
+  },
+  "dropoff": {
+    "latitude": -37.858191,
+    "longitude": 144.973841,
+    "full_address": "20 Loch St, St Kilda West, VIC 3182",
+    "contact_name": "Saida Kronecker",
+    "contact_phone": "040191332"
+  }
 }
 ```
-Parameters `fetcher_name` and `fetcher_phone` are empty if the item has not been picked up yet.
+Attribute `fetcher` is empty if the item has not been picked up yet.
 
 ### cURL example
 
