@@ -116,7 +116,7 @@ Returns information about a delivery job. It can be useful for checking the curr
 }
 ```
 
-Attribute `fetcher` is empty if the item has not been picked up yet.
+Attribute `fetcher` is empty if the item has not been picked up yet. The `state` attribute contains the current [state of the job](https://github.com/GoFetchDeliveries/api-v1/blob/master/states.md).
 
 ### cURL example
 
