@@ -178,9 +178,7 @@ curl -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.
 One can filter the jobs by state or creation date by adding `state`, `created_from` or `created_to` URL parameters. For example:
 
 ```
-http://test.go-fetch.com.au/public_api/v1/jobs?state=pending
-http://test.go-fetch.com.au/public_api/v1/jobs?created_from=2019-01-22
-http://test.go-fetch.com.au/public_api/v1/jobs?created_to=2020-06-01
+http://test.go-fetch.com.au/public_api/v1/jobs?state=pending&created_from=2019-01-22&created_to=2020-06-01
 ```
 
 
