@@ -128,7 +128,7 @@ curl -H 'X-User-Email: EMAIL' -H 'X-User-Token: TOKEN' http://test.go-fetch.com.
 
 `GET jobs`
 
-Returns all jobs starting with most recent ones. The returned job JSON object have the same format as the one returned by the `GET jobs/:job_id` endpoint. The jobs response is [paginated](https://github.com/GoFetchDeliveries/api-v1/blob/master/pagination.md).
+Returns all jobs starting with most recent ones. The jobs response is [paginated](https://github.com/GoFetchDeliveries/api-v1/blob/master/pagination.md).
 
 ### Response
 
