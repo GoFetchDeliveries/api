@@ -82,7 +82,7 @@ EOF
 
 `GET jobs/:job_id`
 
-Returns information about a delivery job. It can be useful for checking the current state of the job.
+Returns information about a delivery job.
 
 ### Response
 
