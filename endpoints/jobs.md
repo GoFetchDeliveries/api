@@ -133,35 +133,37 @@ Returns all jobs.
 ### Response
 
 ```JSON
-[
-  {
-    "id": "e2c5e27d-fb56-498c-b5f5-ed70adf64be6",
-    "state": "delivered",
-    "notes_to_fetcher": "Please pickup in the ministry. Dropoff at a rickety house with a pink garden gnome.",
-    "price_cents": 980,
-    "created_at": "2016-01-22T03:12:01.607+11:00",
-    "picked_up_at": "2017-02-22T09:46:01.607+11:00",
-    "delivered_at": "2020-01-17T09:46:01.607+11:00",
-    "fetcher": {
-      "name": "Magna Perkovitch",
-      "phone": "0303111222"
-    },
-    "pickup": {
-      "latitude": -37.813068,
-      "longitude": 144.995311,
-      "full_address": "52 Lennox St, Richmond VIC 3121",
-      "contact_name": "Amanda Woo",
-      "contact_phone": "0403853234"
-    },
-    "dropoff": {
-      "latitude": -37.858191,
-      "longitude": 144.973841,
-      "full_address": "20 Loch St, St Kilda West, VIC 3182",
-      "contact_name": "Saida Kronecker",
-      "contact_phone": "040191332"
+{
+  "jobs": [
+    {
+      "id": "e2c5e27d-fb56-498c-b5f5-ed70adf64be6",
+      "state": "delivered",
+      "notes_to_fetcher": "Please pickup in the ministry. Dropoff at a rickety house with a pink garden gnome.",
+      "price_cents": 980,
+      "created_at": "2016-01-22T03:12:01.607+11:00",
+      "picked_up_at": "2017-02-22T09:46:01.607+11:00",
+      "delivered_at": "2020-01-17T09:46:01.607+11:00",
+      "fetcher": {
+        "name": "Magna Perkovitch",
+        "phone": "0303111222"
+      },
+      "pickup": {
+        "latitude": -37.813068,
+        "longitude": 144.995311,
+        "full_address": "52 Lennox St, Richmond VIC 3121",
+        "contact_name": "Amanda Woo",
+        "contact_phone": "0403853234"
+      },
+      "dropoff": {
+        "latitude": -37.858191,
+        "longitude": 144.973841,
+        "full_address": "20 Loch St, St Kilda West, VIC 3182",
+        "contact_name": "Saida Kronecker",
+        "contact_phone": "040191332"
+      }
     }
-  }
-]
+  ]
+}
 ```
 
 
