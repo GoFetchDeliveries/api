@@ -1,6 +1,6 @@
 # Pagination
 
-Endpoints that return array of objects also include pagination data. For example
+Endpoints that return array of objects also include pagination data. For example:
 
 ```JSON
 {
