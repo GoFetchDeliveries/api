@@ -13,8 +13,11 @@ Manage a customer's jobs
 
 
 ### Headers
+
 `X-User-Email: someemail@gmail.com`
+
 `X-User-Token: TOKEN`
+
 `Content-Type: application/json`
 
 TOKEN is retrieved from the [User sign In](../../../v1/users/sign_in.md) endpoint
