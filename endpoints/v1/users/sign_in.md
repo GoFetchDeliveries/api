@@ -4,7 +4,8 @@ Manage your users.
 
 * [Sign in](#sign-in)
 
-## Request URL
+## Sign In
+### Request URL
 
 `POST`
 `https://go-fetch.com.au/api/v1/users.json`
