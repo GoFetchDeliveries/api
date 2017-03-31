@@ -1,16 +1,15 @@
-# Jobs
 
-Manage your delivery jobs.
+Calculate a potential job's price
 
-* [Sign in](#sign-in)
+* [Job Price Calculation](#job-price-calculation)
 
-## Sign in
+# Job Price Calculation
 
-`POST users`
-
-Signs in using email and password and returns an authentication token that should be used in the Authorization header.
+Calculates the job's price based on distance or (deprecated) seconds parameter.
 
 ### Request url
+
+`GET`
 
 https://go-fetch.com.au/api/v1/jobs/calculate.json?distance_meters=802&seconds=403
 
