@@ -4,11 +4,17 @@ Welcome to GoFetch API. Anyone with a GoFetch user account can access GoFetch AP
 
 ## API endpoints
 
+## "Public APIs" (not that others are private, but you know...)
 * [Hello World](endpoints/hello_world.md)
 * [Job status webhook](endpoints/job_status_webhook.md)
 * [Jobs](endpoints/jobs.md)
 * [Sessions](endpoints/sessions.md)
 
+## V1
+
+# [Sign In](endpoints/api/v1/sign_in.md)
+# [Calculate Job Price](endpoints/api/v1/jobs/calculate.md)
+# [Create a Job](endpoints/api/v1/my/customer/jobs.md)
 
 ## Getting started in the test environment
 
