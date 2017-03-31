@@ -2,7 +2,7 @@
 
 Manage a customer's jobs
 
-* [Sign in](#create-a-job)
+* [Create a new customer job](#create-a-new-customer-job)
 
 ## Create a new customer job
 
