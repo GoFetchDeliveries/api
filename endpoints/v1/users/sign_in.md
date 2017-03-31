@@ -4,11 +4,12 @@ Manage your users.
 
 * [Sign in](#sign-in)
 
-## Sign in
+## Request URL
 
-`POST users`
+`POST`
+`https://go-fetch.com.au/api/v1/users.json`
 
-Signs in using email and password and returns an authentication token that should be used in the Authorization header.
+Signs in using email and password and returns a user object with an authentication token that should be used in the Authorization header.
 
 ### Request data
 
