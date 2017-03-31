@@ -1,6 +1,6 @@
-# Jobs
+# Users
 
-Manage your delivery jobs.
+Manage your users.
 
 * [Sign in](#sign-in)
 
@@ -23,6 +23,7 @@ Signs in using email and password and returns an authentication token that shoul
 
 ### Response
 
+Pay attention to the "authentication_token" in the response. This is what you will need to supply in future API requests.
 
 ```JSON
 {
