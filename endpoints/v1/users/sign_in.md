@@ -10,7 +10,7 @@ Manage your users.
 `POST`
 `https://go-fetch.com.au/api/v1/users.json`
 
-Signs in using email and password and returns a user object with an authentication token that should be used in the Authorization header.
+Signs in using an email and a password and returns a user object with an authentication token that should be used in the X-User-Token header in future requests.
 
 ### Request data
 
